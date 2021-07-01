@@ -1,9 +1,9 @@
 void swap_max(int arr[], int l, int n) {
-    int max=0 ,x,y=0;
+    int x,y=0;
      x=arr[n];
   for(int i=n;i<l;i++){
-   if(arr[i]>max){
-     max=arr[i];
+   if(arr[i]>x){
+     x=arr[i];
        y=i;
      }
     }
@@ -12,9 +12,9 @@ void swap_max(int arr[], int l, int n) {
        y=j;
        }
    }*/
-    if(max!=x){
-    arr[y]=x;
-    arr[n]=max;
+    if(x!=arr[n]){
+    arr[y]=arr[n];
+    arr[n]=x;
     }
           
    }
