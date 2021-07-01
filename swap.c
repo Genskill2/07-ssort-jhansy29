@@ -11,7 +11,7 @@ void swap_max(int arr[], int l, int n) {
        y=j;
        }
    }
-    arr[j]=x;
+    arr[y]=x;
     arr[n]=max;
           
    }
