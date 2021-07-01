@@ -7,6 +7,7 @@ void swap_max(int arr[], int l, int n) {
     }
    arr[n]==max;
    }
+
      
   
  
